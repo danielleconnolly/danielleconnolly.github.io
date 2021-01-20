@@ -4,11 +4,11 @@ body {
 	color: #c9c9c9;
 	font-family: 'Montserrat', sans-serif;
 
-	background: linear-gradient(-45deg, #748aa6, #39424e);
+	background: linear-gradient(-45deg, #748aa6, #333a45);
 	background-size: 400% 400%;
-	-webkit-animation: gradient 20s ease infinite;
-	-moz-animation: gradient 20s ease infinite;
-	animation: gradient 20s ease infinite;
+	-webkit-animation: gradient 12s ease infinite;
+	-moz-animation: gradient 12s ease infinite;
+	animation: gradient 12s ease infinite;
 }
 
 @-webkit-keyframes gradient {
@@ -34,7 +34,9 @@ body {
 	width: 70%;
 }
 
-h1 {
+#links {
+	font-size: medium;
+	line-height: 150%;
 }
 
 h2 {
@@ -49,8 +51,6 @@ p, ul {
 
 a {
 	color: #c9c9c9;
-	font-size: medium;
-	line-height: 150%;
 }
 
 a:hover {
