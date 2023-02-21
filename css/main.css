@@ -3,12 +3,13 @@
 body {
 	color: #c9c9c9;
 	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
 
 	background: linear-gradient(-45deg, #748aa6, #333a45);
-	background-size: 400% 400%;
-	-webkit-animation: gradient 12s ease infinite;
-	-moz-animation: gradient 12s ease infinite;
-	animation: gradient 12s ease infinite;
+	background-size: 500% 500%;
+	-webkit-animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	animation: gradient 10s ease infinite;
 }
 
 @-webkit-keyframes gradient {
